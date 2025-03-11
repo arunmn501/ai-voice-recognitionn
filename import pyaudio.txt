@@ -75,6 +75,12 @@ if __name__ == "__main__":
             print(results)
             speak(results)
 
+        elif 'open simplotel' in query:
+            webbrowser.open("www.simplotel.com")
+
+        elif 'open simplotel custermer care' in query:
+            webbrowser.open("www.simplotel.com/contact-us")
+
         elif 'open youtube' in query:
             webbrowser.open("youtube.com")
 
